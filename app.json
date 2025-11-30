@@ -1,0 +1,11 @@
+{
+  "name": "MedicsStaff_New",
+  "displayName": "MedicsStaff_New",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "16aad6ad-1d3e-4877-b42a-fb9548e557ba"
+      }
+    }
+  }
+}

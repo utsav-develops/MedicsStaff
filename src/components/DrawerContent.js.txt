@@ -1,0 +1,26 @@
+// DrawerContent.js
+import React from 'react';
+import { View, TouchableOpacity, Text } from 'react-native';
+import { menus } from './constants'; // Your menu items
+
+const DrawerContent = ({ navigation }) => {
+  return (
+    <View>
+      {/* Loop through menus to create items */}
+      {menus.map((item, index) => (
+        <TouchableOpacity
+          key={index}
+          onPress={() => {
+            navigation.navigate(item.route);
+            navigation.closeDrawer();
+          }}
+        >
+          {/* Your menu item layout */}
+          <Text>{item.menu_name}</Text>
+        </TouchableOpacity>
+      ))}
+    </View>
+  );
+};
+
+export default DrawerContent;
