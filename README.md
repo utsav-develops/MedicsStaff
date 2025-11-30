@@ -117,15 +117,15 @@ medics-staff/
 
 ---
 
-## **Screenshots**
+## **Icons**
 
 ```
-/assets/screenshots/
- - dashboard.png
- - job-request.png
- - job-details.png
- - availability.png
- - tracking.png
+/src/assets/img/
+ - BG.png
+ - cancel.png
+ - check.png
+ - discount.png
+ - insurance.png
 ```
 
 ---
